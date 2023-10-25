@@ -1,0 +1,23 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+
+  input {
+    padding: 1em;
+    border-radius: var(--border-radius);
+    outline: none;
+    background-color: var(--page-background-color);
+    border: none;
+
+    &:focus,
+    &:hover,
+    &:active {
+      box-shadow: 0px 5px 12px var(--page-background-color);
+    }
+  }
+
+  label {
+    margin-bottom: 0.5em;
+  }
+}
