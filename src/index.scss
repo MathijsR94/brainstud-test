@@ -1,5 +1,20 @@
+@import "./scss/fonts";
+@import "./scss/headings";
+
 html {
   --page-background-color: #f0f2ff;
   --primary-color: #ff6e32;
   --secondary-color: #6400cd;
+  --border-radius: 20px;
+  --card-background-color: #fff;
+  --box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.1);
+  --font-headings: "Eina03", sans-serif;
+  --font-body: "Gilroy", sans-serif;
+}
+
+body {
+  padding: 0 4em;
+  min-height: 100vh;
+  margin: 0;
+  font-family: var(--font-body);
 }

@@ -1,4 +1,5 @@
 import { ReactElement } from "react";
+import "./main.scss";
 
 interface IProps {
   children: ReactElement;
